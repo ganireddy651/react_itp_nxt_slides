@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.navbar {
+  background-color: #dbeafe;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.website-logo {
+  height: 40px;
+  width: 50px;
+}
+.website-heading {
+  margin-left: 10px;
+  font-family: 'Bree Serif';
+}
+.plus-icon {
+  height: 10px;
+  width: 10px;
+  margin-right: 5px;
+}
+.new-slide-button {
+  background-color: #dbeafe;
+  border: 0;
+  font-family: 'Bree Serif';
+  height: 30px;
+  width: 70px;
+  border-radius: 5px;
+  margin: 10px;
+}
+.button-container {
+  padding: 10px;
+}
+.bottom-section {
+  background-color: #f8fafc;
+}
+.slide-container {
+  display: flex;
+  background-color: #f8fafc;
+}
+.active-slide-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png ');
+  background-size: cover;
+  height: 80vh;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.sidebar-slide-container {
+  width: 30%;
+  height: 80vh;
+  overflow-y: scroll;
+  color: #334155;
+  border-radius: 5px;
+  padding: 10px;
+  list-style: none;
+}
+.heading-input-container {
+  background-color: #dbeafe;
+  margin-bottom: 20px;
+}
+.heading-input {
+  background-color: #dbeafe;
+  border: 0;
+  outline: none;
+  padding: 5px;
+  font-size: 45px;
+  border-radius: 5px;
+  width: 350px;
+  text-align: center;
+  color: #0967d2;
+  font-family: 'Bree Serif';
+}
+.active-slide {
+  background-color: #dbeafe;
+  border: 0;
+  padding-top: 15px;
+  margin-bottom: 10px;
+}
+.description-input-container {
+  background-color: #dbeafe;
+  margin-bottom: 20px;
+}
+.description-input {
+  background-color: #dbeafe;
+  border: 0;
+  outline: none;
+  padding: 5px;
+  font-size: 25px;
+  border-radius: 5px;
+  width: 350px;
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Bree Serif';
+}
+.heading {
+  color: #0967d2;
+  font-family: 'Bree Serif';
+  text-align: center;
+  font-size: 45px;
+}
+.description {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Bree Serif';
+  font-size: 25px;
+}
+.button {
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}

@@ -1,0 +1,30 @@
+.slides-container {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+.card {
+  height: 150px;
+  width: 300px;
+  box-shadow: 3px 3px 3px 3px #bfbfbf;
+  margin-left: 10px;
+}
+.bg-color {
+  background-color: #dbeafe;
+  height: 150px;
+  width: 300px;
+  box-shadow: 3px 3px 3px 3px #bfbfbf;
+  margin-left: 10px;
+}
+.heading-sidebar {
+  color: #0967d2;
+  font-size: 30px;
+  font-family: 'Bree Serif';
+}
+.description-sidebar {
+  color: #0f172a;
+  font-size: 20px;
+  font-family: 'Bree Serif';
+}
