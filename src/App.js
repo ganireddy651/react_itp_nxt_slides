@@ -115,6 +115,14 @@ class App extends Component {
     })
   }
 
+  onBlurHeading = () => {
+    this.setState({isClicked: false})
+  }
+
+  onBlurDescription = () => {
+    this.setState({isDescriptionClicked: false})
+  }
+
   render() {
     const {
       active,
@@ -171,6 +179,7 @@ class App extends Component {
                     <input
                       type="text"
                       value={heading}
+                      onBlur={this.onBlurHeading}
                       className="heading-input"
                       onChange={this.onChangeHeading}
                     />
@@ -189,6 +198,7 @@ class App extends Component {
                     <input
                       type="text"
                       value={description}
+                      onBlur={this.onBlurDescription}
                       className="description-input "
                       onChange={this.onChangeDescription}
                     />

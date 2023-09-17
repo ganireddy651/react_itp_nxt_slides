@@ -63,6 +63,7 @@ body {
   width: 30%;
   height: 80vh;
   overflow-y: scroll;
+  overflow-x: hidden;
   color: #334155;
   border-radius: 5px;
   padding: 10px;

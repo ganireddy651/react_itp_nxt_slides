@@ -7,14 +7,14 @@
 }
 .card {
   height: 150px;
-  width: 300px;
+  width: 250px;
   box-shadow: 3px 3px 3px 3px #bfbfbf;
   margin-left: 10px;
 }
 .bg-color {
   background-color: #dbeafe;
   height: 150px;
-  width: 300px;
+  width: 250px;
   box-shadow: 3px 3px 3px 3px #bfbfbf;
   margin-left: 10px;
 }
