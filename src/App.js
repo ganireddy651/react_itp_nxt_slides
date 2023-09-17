@@ -62,11 +62,20 @@ class App extends Component {
       description: 'Description',
     }
 
-    this.setState(prevState => ({
-      tabsList: [...prevState.tabsList, newTab],
-      heading: 'Heading',
-      description: 'Description',
-    }))
+    this.setState(prevState => {
+      const activeTabIndex = prevState.tabsList.findIndex(
+        tab => tab.id === prevState.active,
+      )
+      const updatedTabsList = [...prevState.tabsList]
+      updatedTabsList.splice(activeTabIndex + 1, 0, newTab)
+
+      return {
+        tabsList: updatedTabsList,
+        active: newTab.id,
+        heading: 'Heading',
+        description: 'Description',
+      }
+    })
   }
 
   onChangeHeading = e => {
